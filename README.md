@@ -1,2 +1,2 @@
-# Go_basic
+# go_basic
 Aprendendo GO
