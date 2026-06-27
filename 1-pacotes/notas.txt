@@ -1,0 +1,32 @@
+Para rodar executavel em Go 
+
+- Precisa ser um arquivo com 
+
+'package main'
+
+- Desta forma roda com ocomando 
+
+go run hello.go 
+
+-- Para rodar com '.mod'que são os modulos.
+
+-Para criar o arquivo binario chamado 'testando' que copila todo o codigo do projeto.
+Rodar comandos>
+
+go build 
+
+pode ser usado o 'go install' que salva o arquivo binario na raiz do go 
+
+e depois para rodar o arquivo copilado
+Rodar comandos>
+
+./testando
+
+##### pacote externo
+execultar o comando na pasta aonde esta o modululo .mod
+
+go get github.com/badoux/checkmail
+
+vai instalar o pacote externo e suas dependencias
+
+para utilizar o pacote basta adiconar o caminho no caso na main. 
